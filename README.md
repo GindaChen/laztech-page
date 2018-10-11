@@ -1,10 +1,16 @@
 # Velocity Gradient Technique: a simple Demo
 
-*If you're looking a demo page, come [here](https://github.com/GindaChen/laztech-page/blob/master/VGT-demo/demo-VGT.ipynb) . The cube we're using in the demo is a bit too large for file transfer... We'll still post it on site.*
+## What is Velocity Gradient Technique?
 
-### 
+
+
+## Onilne Demo
+
+The demo is hosted on our [laztech Github page](https://github.com/GindaChen/laztech-page/blob/master/VGT-demo/demo-VGT.ipynb) for Jupyter Notebook version. We also provide the Julia script for terminal user to run on the terminal environment.
 
 ## Run on Local Machine
+
+*The simulation data used on the demo can be found here: *
 
 ### Prerequisite
 
@@ -37,4 +43,12 @@ and navigate to the folder where you installed.
 
 1. Download the [VGT-demo](https://github.com/GindaChen/laztech-page/VGT-demo) folder to your local machine.
 2. Open `demo-VGT.jl` if you're using Julia terminal or `demo-VGT.ipynb` if you're using Jupyter Notebook.
-3. 
+3. If you're using terminal, make sure you have the data cube in the same folder and change the corresponding data name in the code:
+
+```julia
+# Line 6~8 in demo-VGT.jl 
+### Choose your cube here ###
+dataname= "run-0-ppv.h5";   # <----- Put your cube name here
+#---------------------------#
+```
+
